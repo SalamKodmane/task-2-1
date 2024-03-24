@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Style Navbar */
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: start;
+    background-color: #f44336;
+    overflow: hidden;
+    padding: 10px 0px;
+    margin: 0;
+    width: 100%;
+    box-shadow: 1px 1px 2px 2px rgba(219, 212, 212, 0.2);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+#a1{
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    margin: 0;
+    border: 1px solid white;
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+/* Style first section */
+.start-page {
+    height: 300px;
+    background-color: #f44336;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+.start-page div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border: 10px solid black;
+    margin-top: 25px;
+} 
+.p1{
+    padding-top: 25px;
+    color: white;
+}
+div h1{
+    color: white;
+    font-weight: lighter;
+}
+.second-item1, .second-item2{
+    width: 50%;
+    font-size: 200px;
+    color: red;
+}
+span{
+    color: gray;
+}
+
+/* Style second section */
+.our-service {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .our-service .first-div {
+    padding-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .our-service .first-div .first-item p {
+    padding: 10px 0px;
+  }
+  .gray-background {
+    background-color: rgb(227, 227, 227);
+  }
+  .quote {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(123, 123, 123);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Style footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 250px;
+}
+footer div a {
+    width: 2px;
+    height: 2px;
+  }
+footer p {
+    color: gray;
+}
+footer p a{
+    color: gray;
+}
+ 
+
